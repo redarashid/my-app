@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './Components/Home'
+import HomePage from './Components/HomePage'
 import NavBar from './Components/NavBar'
 
 const App = () => {
@@ -8,12 +8,11 @@ const App = () => {
     <div className='App'>
     <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<HomePage />} />
       </Routes>
     </div>
   )
 }
 
 export default App
-
 
