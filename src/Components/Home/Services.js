@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
       <Container>
         <div className='title'>
           <h5>Services</h5>

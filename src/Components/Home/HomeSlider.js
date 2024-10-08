@@ -9,7 +9,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const HomeSlider = () => {
   return (
-    <div className='home-slider'>
+    <div className='home-slider' id='home'>
      <Carousel>
       <Carousel.Item>
         <img src={imgSlider1} alt='home-slider' />

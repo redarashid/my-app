@@ -3,6 +3,8 @@ import HomeSlider from '../Components/Home/HomeSlider'
 import Services from '../Components/Home/Services'
 import Business from '../Components/Home/Business'
 import HomeAbout from '../Components/Home/HomeAbout'
+import Testimonials from '../Components/Home/Testimonials'
+import Footer from '../Components/Footer'
 
 const HomePage = () => {
   return (
@@ -18,6 +20,12 @@ const HomePage = () => {
       </section>
       <section>
         <HomeAbout/>
+      </section>
+      <section id='Testimonials'>
+        <Testimonials/>
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   )

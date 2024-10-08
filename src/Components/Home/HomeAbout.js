@@ -37,7 +37,7 @@ const HomeAbout = () => {
     }
 
   return (
-    <div className='home-about'>
+    <div className='home-about' id='about'>
       <Container>
         <div className='title'>
           <h5>About Us</h5>
@@ -102,3 +102,4 @@ const HomeAbout = () => {
 }
 
 export default HomeAbout
+
