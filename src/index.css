@@ -692,6 +692,9 @@ footer span {
 
 .contact-home {
   background-image: url(./Imgs/calculator-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
   background-position: 50%;
   background-size: cover;
   display: flex;
@@ -703,6 +706,55 @@ footer span {
 .contact-home h1 {
   color: #fff;
   font-weight: bold;
+  font-size: 40px;
+}
+/* End Contact Us */
+
+/* Start map-contact */
+.map-contact {
+  margin: 100px 0;
+  position: relative;
+}
+.map-contact .contact {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.map-contact .contact .item {
+  box-shadow: 0 0 15px #0000001a;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin: -60px 15px 0;
+  transition: all .5s;
+}
+.map-contact .contact .item:hover {
+  margin-top: -100px;
+}
+.map-contact .contact .item i {
+  font-size: 35px;
+  color: var(--thired-color);
+}
+.map-contact .contact .item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #212741;
+}
+.map-contact .contact .item a {
+  color: var(--thired-color);
+  font-weight: 500;
+  font-size: 15px;
 }
 
-/* End Contact Us */
+@media(max-width: 992px) {
+  .map-contact .contact {
+    display: none;
+  }
+}
+/* End map-contact */
