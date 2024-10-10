@@ -759,3 +759,20 @@ footer span {
   }
 }
 /* End map-contact */
+
+/* Start form-contact */
+
+.form-contact {
+  padding: 100px 0;
+  text-align: center;
+}
+.form-contact input {
+  height: 50px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.form-contact .textarea {
+  height: 100px;
+}
+/* End form-contact */
