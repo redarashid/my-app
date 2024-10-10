@@ -6,7 +6,7 @@ const HomeContact = () => {
         <div className='contact-home'>
           <h1>Contact Us</h1>
           <div className='line'></div>
-      </div>
+        </div>
     </div>
   )
 }
