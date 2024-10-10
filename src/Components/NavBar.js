@@ -33,10 +33,12 @@ const NavBar = () => {
               </Link>
             </NavDropdown>
           </Nav>
+          <Link to="/contact">
           <motion.button
             whileTap={{ scale: 0.85 }} className='motion-button'>
-            <Button variant="success">Contact Us</Button>
+            <Button  variant="success">Contact Us</Button>
           </motion.button>
+          </Link>
 
         </Navbar.Collapse>
       </Container>

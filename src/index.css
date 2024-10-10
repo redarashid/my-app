@@ -35,6 +35,16 @@ a {
   width: 70px;
   margin: 15px 0;
 }
+.title h5 {
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--scond-color);
+  text-transform: uppercase;
+}
+.title h1 {
+  font-weight: bold;
+  color: var(--main-color);
+}
 
 /* Start Navbar */
 .navBar {
@@ -591,3 +601,108 @@ footer span {
   font-weight: bold;
 }
 /* End Investment */
+
+
+/* Start Investment */
+
+.investment-services {
+  margin: 100px 0;
+}
+.investment-services .title h5, h1 {
+  text-align: center;
+}
+.investment-services .content .tabs {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.investment-services .content button {
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 0 0 15px #0000001a;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.investment-services .box {
+  display: flex !important;
+  align-items: center;
+  box-shadow: 0 0 15px #0000001a;
+  border-radius: 10px;
+  width: 90% !important;
+  gap: 100px;
+  margin-top: 20px;
+  overflow: hidden;
+  transition: all 1s cubic-bezier(.075,.82,.165,1);
+}
+ .investment-services .box .right-content {
+  text-align: left;
+} 
+.investment-services .box .right-content h4 {
+  color: #212741;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.investment-services .box .right-content span {
+  display: block;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+@media(max-width: 992px) {
+  .investment-services .content .tabs {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .investment-services .box {
+    gap: 50px;
+    flex-direction: column;
+  }
+  .investment-services .box .right-content {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  .investment-services .box .image, .investment-services .box .image img {
+    width: 100%;
+  }
+}
+
+@media(max-width: 1200px) {
+  .investment-services .box .right-content h4 {
+    font-size: 25px;
+  }
+  .investment-services .box .right-content p {
+    font-size: 15px;
+  }
+  
+}
+/* End Investment */
+
+
+/* Start Contact Us */
+
+.contact-home {
+  background-image: url(./Imgs/calculator-bg.jpg);
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 130px 0;
+  text-align: center;
+}
+.contact-home h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* End Contact Us */
